@@ -1,0 +1,6 @@
+@AtHash.Apis.BusinessRulesEngine_HostAddress = http://localhost:5053
+
+GET {{AtHash.Apis.BusinessRulesEngine_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
