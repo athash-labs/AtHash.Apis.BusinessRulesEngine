@@ -1,6 +1,6 @@
 using System;
 
-public class RuleExpressionParameterDataType
+public class RuleExpressionParameterDataTypeEntity
 {
     public int Id { get; set; }
     public string Name { get; set; }

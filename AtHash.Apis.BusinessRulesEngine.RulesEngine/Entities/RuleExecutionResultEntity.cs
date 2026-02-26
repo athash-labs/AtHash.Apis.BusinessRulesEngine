@@ -1,6 +1,6 @@
 using System;
 
-public class ExecutionResultEntity
+public class RuleExecutionResultEntity
 {
     public int Id { get; set; }
     public int OrderSequence { get; set; }
