@@ -17,8 +17,32 @@ public class BusinessRulesEngineDbContext : DbContext
     public DbSet<RulesetEntity> Rulesets { get; set; }
     public DbSet<WorkflowEntity> Workflows { get; set; }
 
+    public BusinessRulesEngineDbContext()
+    {
+        
+    }
+
     public BusinessRulesEngineDbContext(DbContextOptions<BusinessRulesEngineDbContext> options)
         : base(options)
     {
+
+    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        /*
+        if (!optionsBuilder.IsConfigured)
+        {
+            // Default connection string for development
+            optionsBuilder.UseSqlServer("Name=ConnectionStrings:BusinessRulesEngine");
+        }
+        */
+    }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        // Configure relationships and constraints here if needed
     }
 }
