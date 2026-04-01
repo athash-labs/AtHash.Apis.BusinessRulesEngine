@@ -1,0 +1,18 @@
+
+
+Fix SQL Server certificate trust error
+    https://chat.deepseek.com/a/chat/s/88c1dd36-ac39-448f-aba1-c968ba2886b3
+
+Step-by-Step Guide to Enabling SQL Server Encryption: Generating Certificate Requests
+    https://www.automatesql.com/blog/generating-certificate-requests
+
+Entity Framework Core tools reference - .NET CLI
+    https://learn.microsoft.com/en-us/ef/core/cli/dotnet#update-the-tools
+
+    #   dotnet ef
+    #   dotnet tool list --global
+    #   dotnet tool install --global dotnet-ef --version 9.0.13
+    #   dotnet tool update --global dotnet-ef --version 9.0.13
+    #   dotnet ef dbcontext scaffold Name=ConnectionStrings:BusinessRulesEngine --context BREDbContext --context-dir Data/DbContexts --context-namespace AtHash.Apis.BusinessRulesEngine.RulesEngine.Data.DbContexts --force --output-dir "Data/DatabaseFirst" Microsoft.EntityFrameworkCore.SqlServer
+    #   dotnet ef dbcontext scaffold Name=ConnectionStrings:BusinessRulesEngine --context BusinessRulesEngineDbContext --context-dir Data/DbContexts --context-namespace AtHash.Apis.BusinessRulesEngine.RulesEngine.Data.DbContexts --force --output-dir Data/DatabaseFirst Microsoft.EntityFrameworkCore.SqlServer 
+
