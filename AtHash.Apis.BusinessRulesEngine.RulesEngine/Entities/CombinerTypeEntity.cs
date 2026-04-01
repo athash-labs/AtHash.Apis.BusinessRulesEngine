@@ -7,3 +7,4 @@ public class CombinerTypeEntity
     public string? Description { get; set; }
     public int IsEnabled { get; set; }
 }
+ 
